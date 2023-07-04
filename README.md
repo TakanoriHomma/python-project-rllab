@@ -12,7 +12,7 @@ This repository is for assignments of M1 tutorial in Robot Learning Lab.
 
 ## Usage
 環境はDockerにより構築する．任意の場所でbuid & run可能なはず．  
-To build:
+To build & run:
 ```
 cd Docker
 sh build.sh
