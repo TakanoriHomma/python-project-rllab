@@ -24,14 +24,23 @@ sh run.sh
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
 ## 課題について
-課題は次のように割り振った．  
-
+当グループでは課題1と課題3を選択した．
+### リポジトリの作成  
 - 荒木:  
-課題1 
+課題1 https://github.com/Araki-SH/python-project-rllab-kadai1/tree/main
 - 本間:  
-課題3  
+課題3  （このリポジトリ）
 
-基本的にそれぞれが割り振られたものをすべて担当するが，班内でわからないところがあれば助け合う．
+~~基本的にそれぞれが割り振られたものをすべて担当するが，班内でわからないところがあれば助け合う．~~
+
+### 想定される機能
+話し合った結果必要そうなモジュールについて説明
+- 課題1:
+
+- 課題3:
+
+### タスクの割り振り
+タスクの割り振りを説明
 
 ## Results
 課題で得られた結果があれば載せる
