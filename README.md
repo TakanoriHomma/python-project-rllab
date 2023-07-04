@@ -1,16 +1,17 @@
 # python-project-rllab
 
-Pythonチュートリアル荒木本間班のリポジトリ
+
 
 ### UPDATE [4 July, 2023] : 
 
 
 ## Introduction
-This repository is for assignments of M1 tutorial in Robot Learning Lab. 
+Pythonチュートリアル荒木本間班のリポジトリ  
+This repository is for assignments of M1 tutorial in Robot Learning Lab.   
 
 
 ## Usage
-環境はDockerにより構築する．
+環境はDockerにより構築する．  
 To build:
 ```
 cd Docker
@@ -19,14 +20,20 @@ sh run.sh
 ```
 
 #### Note :
-  - The environment runs on GPU so you must install NVIDIA Docker Container.
+  - The environment runs on GPU so you must install NVIDIA Docker Container.  
 
 ## 課題について
-課題は次のように割り振った．
+課題は次のように割り振った．  
 
+- 荒木:  
+課題1 
+- 本間:  
+課題3  
+
+基本的にそれぞれが割り振られたものをすべて担当するが，班内でわからないところがあれば助け合う．
 
 ## Results
-
+課題で得られた結果があれば載せる
 
 ## Dependencies
 Dockerコンテナにすべて入っているが一応記載する．
