@@ -20,7 +20,8 @@ sh run.sh
 ```
 
 #### Note :
-  - The environment runs on GPU so you must install NVIDIA Docker Container.  
+  - The environment runs on GPU so you must install NVIDIA Docker Container.
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
 ## 課題について
 課題は次のように割り振った．  
