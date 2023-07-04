@@ -40,7 +40,10 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 - 課題3:
 
 ### タスクの割り振り
-タスクの割り振りを説明
+負荷が均等になるように次のようにタスクを割り振る  
+- 荒木:  
+
+- 本間:  
 
 ## Results
 課題で得られた結果があれば載せる
