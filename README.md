@@ -7,7 +7,7 @@
 
 ## Introduction
 Pythonチュートリアル荒木本間班のリポジトリ  
-This repository is for assignments of M1 tutorial in Robot Learning Lab.   
+This repository is for assignments of M1 tutorial by Robot Learning Lab.   
 
 
 ## Usage
