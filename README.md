@@ -6,22 +6,22 @@
 
 
 ## Introduction
-Pythonチュートリアル荒木本間班のリポジトリ  
+Pythonチュートリアル荒木本間班の課題3のリポジトリ  
 This repository is for assignments of M1 tutorial by Robot Learning Lab.   
 
 
 ## Usage
-環境はDockerにより構築する．任意の場所でbuid & run可能なはず．  
+環境はDockerにより構築する．任意の場所でbuid & run可能．  
 To build & run:
 ```
 cd Docker
 sh build.sh
 sh run.sh
 ```
-
 #### Note :
   - The environment runs on GPU so you must install NVIDIA Container Toolkit.
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
 
 ## 課題について
 当グループでは課題1と課題3を選択した．
@@ -45,8 +45,10 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 
 - 本間:  
 
+
 ## Results
 課題で得られた結果があれば載せる
+
 
 ## Dependencies
 Dockerコンテナにすべて入っているが一応記載する．
@@ -69,5 +71,5 @@ matplotlib
 Pillow
 ```
 
-## References
 
+## References
