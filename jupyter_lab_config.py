@@ -1003,7 +1003,7 @@ c.ServerApp.port = 63322
 
 ## The directory to use for notebooks and kernels.
 #  Default: ''
-c.ServerApp.root_dir = f'/home/{uname}/Kadai1MPL/'
+c.ServerApp.root_dir = f'/home/{uname}/Kadai3VAE/'
 
 ## The session manager class to use.
 #  Default: 'builtins.object'
