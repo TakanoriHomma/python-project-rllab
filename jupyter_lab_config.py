@@ -973,7 +973,7 @@ c.ServerApp.ip = "*"
 
 ## The port the server will listen on (env: JUPYTER_PORT).
 #  Default: 0
-c.ServerApp.port = 63322
+c.ServerApp.port = 63323
 
 ## The number of additional ports to try if the specified port is not available
 #  (env: JUPYTER_PORT_RETRIES).
@@ -1003,7 +1003,7 @@ c.ServerApp.port = 63322
 
 ## The directory to use for notebooks and kernels.
 #  Default: ''
-c.ServerApp.root_dir = f'/home/{uname}/Kadai3VAE/'
+c.ServerApp.root_dir = f'/home/{uname}/assignment3/'
 
 ## The session manager class to use.
 #  Default: 'builtins.object'
