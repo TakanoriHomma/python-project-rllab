@@ -59,7 +59,7 @@ $ docker logs assignment3
 - Dockerコンテナを立ち上げたターミナルは閉じることができる。閉じてもコンテナは停止しない。
 - Dockerコンテナを停止したい場合には、サーバで以下のコマンドを打ち込む。
 ```shell
-$ docker container stop kadai1mlp 
+$ docker container stop assignment3
 ```
 - コンテナを止めるとJupyterの初期設定(パスワード設定など)も消えてしまうので、基本的に止めない。
 
