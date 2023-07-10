@@ -28,7 +28,7 @@ $ bash run_docker.sh
 ### Jupyterの初期セットアップ
 - まず、以下のコマンドを入力してJupyterLabのtokenを確認する。
 ```shell
-$ docker logs kadai1mlp
+$ docker logs assignment3
 ```
 - 以下に出力例を示す。
   - 末尾から二行目に記載されているURLの`token=`以降がトークンである。これをコピーしておく。
