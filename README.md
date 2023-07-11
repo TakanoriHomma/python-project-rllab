@@ -97,7 +97,17 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 バッチサイズはトレーニング中に一度に処理するサンプルの数を指定する．適切なバッチサイズを選ぶことでメモリ使用量とトレーニングの効率性のバランスを調整することができる．また，エポック数はデータセット全体をトレーニングする際の反復回数を指定する．
 
 #### モジュール
+- エンコーダ（Encoder）:  
+入力データを潜在空間に変換する役割を持つモジュール．一般的に，畳み込み層（Convolutional Layer）や全結合層（Fully Connected Layer）を使用して，データの特徴を抽出し，低次元の表現に変換する．
 
+- デコーダ（Decoder）:  
+エンコーダの出力を元の入力データの再構築に使用．エンコーダの逆操作を行うために，逆畳み込み層（Transposed Convolutional Layer）や逆全結合層（Transpose of Fully Connected Layer）を使用．
+
+- 損失関数（Loss Function）:  
+オートエンコーダの学習には，入力データと再構築データの間の誤差を定量化する損失関数が必要．一般的な選択肢は平均二乗誤差（Mean Squared Error）や二値交差エントロピー（Binary Cross-Entropy）．
+
+- 最適化アルゴリズム（Optimization Algorithm）:  
+オートエンコーダの学習には，パラメータの最適化を行うための最適化アルゴリズムが必要．一般的な選択肢は，確率的勾配降下法（Stochastic Gradient Descent）やその派生アルゴリズムであるAdamやRMSprop等．
 
 ### タスクの割り振り
 負荷が均等になるように次のようにタスクを割り振る  
