@@ -146,4 +146,11 @@ matplotlib
 
 
 ## References
+主にネットワーク構造や理論について参考にした．
+- Variational AutoEncoder( VAE )
+  https://blog.octopt.com/variational-autoencoder/
+- 【徹底解説】VAEをはじめからていねいに
+  https://academ-aid.com/ml/vae
+- Variational Autoencoder徹底解説
+  https://qiita.com/kenmatsu4/items/b029d697e9995d93aa24
 
