@@ -111,10 +111,11 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 
 ### タスクの割り振り
 負荷が均等になるように次のようにタスクを割り振る  
-- 荒木:  
+- 荒木:
+  ae
 
 - 本間:  
-
+  vae
 
 ## Results
 課題で得られた結果があれば載せる
@@ -127,32 +128,20 @@ Trained and Tested on:
 Python 3
 PyTorch
 NumPy
+scikit-learn
 ```
 Training Environments 
 ```
 Python 3
 PyTorch
 NumPy
+scikit-learn
 ```
 Graphs and gifs
 ```
-pandas
 matplotlib
-Pillow
 ```
 
 
 ## References
 
-## ディレクトリ構成
-```text
-.
-├── README.md               
-├── docker/                     : Dockerセットアップ用
-│   ├── Dockerfile
-│   ├── build_docker.sh             : イメージビルド
-│   └── run_docker.sh               : コンテナ立ち上げ
-├── mlp_notebook/           : 課題1
-└── jupyter_lab_config.py       : JupyterLabの設定ファイル
-
-```
