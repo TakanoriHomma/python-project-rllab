@@ -111,12 +111,14 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 
 ### タスクの割り振り
 負荷が均等になるように次のようにタスクを割り振る  
-- 荒木:
-  ae
+- 荒木:  
+  aeクラスの実装  
 
 - 本間:  
-  vae
-
+  vaeクラスの実装
+  訓練部分の実装  
+  考察
+  
 ## Results
 課題で得られた結果があれば載せる
 
