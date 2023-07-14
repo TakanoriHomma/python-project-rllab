@@ -55,7 +55,7 @@ $ docker logs assignment3
 - 全て入力できたら、`Log in and set new password`をクリックする。
 - 以上でJupyterLabの初期セットアップが完了した。
 
-## その他
+### その他
 - Dockerコンテナを立ち上げたターミナルは閉じることができる。閉じてもコンテナは停止しない。
 - Dockerコンテナを停止したい場合には、サーバで以下のコマンドを打ち込む。
 ```shell
@@ -63,8 +63,7 @@ $ docker container stop assignment3
 ```
 - コンテナを止めるとJupyterの初期設定(パスワード設定など)も消えてしまうので、基本的に止めない。
 
-
-#### Note :
+### Note :
   - The environment runs on GPU so you must install NVIDIA Container Toolkit.
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
@@ -120,8 +119,8 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
   考察
   
 ## Results
-課題で得られた結果があれば載せる
-
+AEとVAEの結果はipynb形式でそれぞれ`vae_notebook/ae.ipynb`と`vae_notebook/vae.ipynb`に記載している．  
+また，それぞれを比較し，考察した結果を`vae_notebook/consideration.ipynb`に記載している．
 
 ## Dependencies
 Dockerコンテナにすべて入っているが一応記載する．
