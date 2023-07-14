@@ -69,10 +69,11 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 
 
 ## 課題について
-当グループでは課題1と課題3を選択した．
+当グループでは~~課題1~~と課題3を選択した．  
+追記：課題1を課題2に変更．  
 ### リポジトリの作成  
 - 荒木:  
-課題1 https://github.com/Araki-SH/python-project-rllab-kadai1/tree/main
+~~課題1~~課題2 https://github.com/Araki-SH/python-project-rllab-kadai1/tree/main
 - 本間:  
 課題3  （このリポジトリ）
 
